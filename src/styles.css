@@ -7,3 +7,40 @@ html {
 *::after {
   box-sizing: inherit;
 }
+body {
+  text-align: center;
+  background: #00ecb9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.timer {
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.field {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  background: #2c6468;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.value {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
