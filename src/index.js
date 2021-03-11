@@ -1,10 +1,13 @@
 import './styles.css';
 import CountdownTimer from './timerClass';
 
-new CountdownTimer({
+// const timerRef = document.querySelector('#timer-1');
+
+const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Jul 17, 2021'),
+  targetDate: new Date('2021, 07, 10'),
 });
+timer.showTime();
 
 /*
  * Оставшиеся дни: делим значение UTC на 1000 * 60 * 60 * 24, количество
